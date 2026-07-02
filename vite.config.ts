@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/calculadora-sueldo-liquido/',
+    base: '/Calculadora-Sueldo-Liquido/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
