@@ -20,7 +20,7 @@ export function HeroSection({ hasImage = false }: HeroSectionProps) {
       {/* Background */}
       {hasImage ? (
         <img
-          src="/hero-remuneraciones.jpg"
+          src={`${import.meta.env.BASE_URL}hero-remuneraciones.jpg`}
           alt="Sistema de Cálculo de Remuneraciones"
           className="absolute inset-0 w-full h-full"
           style={{
